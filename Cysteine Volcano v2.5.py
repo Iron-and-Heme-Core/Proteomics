@@ -14,8 +14,8 @@ tissue = 'SKM'                                                # Define tissue na
 groups = ['YOUNG-PRE', 'YOUNG-POST', 'OLD-PRE', 'OLD-POST']   # groups = ['YOUNG-PRE', 'YOUNG-POST', 'OLD-PRE', 'OLD-POST', 'YOUNG-24hr POST', 'OLD-24hr POST']  # All possible groups
 range_slot = ''                                               # range_slot = ' 79-98'  range_slot = ' 51-78_99-100' # range_slot = ' 51-78_99-100' # range_slot = ' 29-50' # range_slot = ' 1-28'
 
-directory = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Volcano Plot - FINAL\v7 test\process test\\'
-directory_figures = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Volcano Plot - FINAL\v7 test\v7 Figures\\' + tissue + range_slot
+directory = r'C:\Users\\'
+directory_figures = r'C:\Users\\' + tissue + range_slot
 
 ### Begin MAIN LOOP for all pairwise comparisons between groups and generate volcano plots
 for group_1, group_2 in permutations(groups, 2):              # Generate all pairwise permutations
