@@ -27,12 +27,12 @@ desired_order = [f'OLD-POST_Average_{tissue}', f'OLD-PRE_Average_{tissue}',
 
 
 # Step 1: Define the directory where the CSV files are stored and create a list for all DataFrames
-directory_path = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Volcano Plot - FINAL\v7 test\process test\PBMC'
-output_directory_path = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Heatmap - FINAL\\'
+directory_path = r'C:\Users\\'
+output_directory_path = r'C:\Users\\'
 
 # Define group using metadata group column name
 group_column = 'Age-Exercise'
-metadata_path = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Volcano Plot - FINAL\sample_metadata_concat.csv'
+metadata_path = r'C:\Users\sample_metadata_concat.csv'
 
 file_pattern = os.path.join(directory_path, f'PROCESSED*{tissue}*.csv')  # Match all CSV files in the directory
 file_paths = glob.glob(file_pattern)
