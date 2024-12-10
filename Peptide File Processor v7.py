@@ -17,10 +17,10 @@ ages, exercises = [age_1, age_2], [exercise_1, exercise_2, exercise_3]
 
 # root_dir = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\\'
 # dataset_directory = root_dir + 'Raw Data\\' + tissue_name + range_slot
-metadata_directory = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Volcano Plot - FINAL\sample_metadata_concat.csv'
-dataset_directory = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Raw Data\\' + tissue_name + range_slot
-output_directory = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Volcano Plot - FINAL\v7 test\process test\\' + tissue_name + range_slot
-merged_output_directory = r'C:\Users\u0716965.AD\PycharmProjects\python-lectures-master\Protein Scripts\Volcano Plot - FINAL\v7 test\process test\\'
+metadata_directory = r'C:\Users\sample_metadata_concat.csv'
+dataset_directory = r'C:\Users\Raw Data\\' + tissue_name + range_slot
+output_directory = r'C:\Users\\' + tissue_name + range_slot
+merged_output_directory = r'C:\Users\\'
 
 
 # Step 2: Load metadata
